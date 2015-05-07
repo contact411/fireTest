@@ -5,6 +5,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var Firebase = require("firebase");
+var db = new Firebase("https://popping-torch-2236.firebaseio.com/");
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
